@@ -1,0 +1,47 @@
+model:
+  NAME: BaseCls
+  encoder_args:
+    NAME: PointMambaEncoder
+    in_channels: 4
+    embed_dim: 64
+    groups: 1
+    res_expansion: 1.0
+    activation: "relu"
+    bias: False
+    use_xyz: False
+    normalize: "anchor"
+    dim_expansion: [ 2, 2, 2, 2]
+    pre_blocks: [ 1, 1, 1, 1]
+    mamba_blocks: [ 2, 2, 2, 2 ]
+    pos_blocks: [ 0, 0, 0, 0]
+    k_neighbors: [ 24, 24, 24, 24 ]
+    reducers: [ 2, 2, 2, 2]
+    rms_norm: True
+    residual_in_fp32: True
+    fused_add_norm: True
+    bimamba_type: "v2"
+    drop_path_rate: 0.1
+    mamba_pos: False
+    mamba_layers_orders: ["z", "z", "z", "z", "z", "z", "z", "z"]
+    use_order_prompt: False
+    prompt_num_per_order: 0
+    block_residual: False
+
+  cls_args:
+    NAME: ClsHead
+    num_classes: 15
+    mlps: [512, 256]
+    norm_args:
+      norm: 'bn1d'
+
+# Optimizer
+lr: 0.0001
+optimizer:
+ NAME: 'adamw'
+ weight_decay: 0.05
+
+sched: cosine
+epochs: 250
+warmup_epochs: 5
+min_lr: 1.0e-5
+t_max: 200

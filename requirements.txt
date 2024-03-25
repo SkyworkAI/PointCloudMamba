@@ -1,0 +1,25 @@
+scikit-learn
+pickleshare
+ninja
+gdown
+easydict
+PyYAML
+protobuf
+tensorboard
+termcolor
+tqdm
+multimethod
+h5py
+matplotlib
+wandb
+pyvista
+setuptools
+Cython
+pandas
+deepspeed
+shortuuid
+
+# for docs
+mkdocs-material
+mkdocs-awesome-pages-plugin
+mdx_truly_sane_lists
