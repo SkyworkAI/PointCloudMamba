@@ -35,11 +35,11 @@ See [Getting Started with PCM](GETTING_STARTED.md).
 
 
 ```BibTeX
-@article{zhang2024pcm,
-      title={Point Cloud Mamba: Point Cloud Learning via State Space Model}, 
-      author={Tao Zhang and Xiangtai Li and Haobo Yuan and Shunping Ji and Shuicheng Yan},
-      journal={arXiv preprint arXiv:2403.00762},
-      year={2024}
+@article{zhang2024point,
+  title={Point Could Mamba: Point Cloud Learning via State Space Model},
+  author={Zhang, Tao and Li, Xiangtai and Yuan, Haobo and Ji, Shunping and Yan, Shuicheng},
+  journal={arXiv preprint arXiv:2403.00762},
+  year={2024}
 }
 ```
 
