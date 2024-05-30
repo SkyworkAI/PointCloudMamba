@@ -1,7 +1,7 @@
 <div align="center">
 
-# [Point Cloud Mamba: Point Cloud Learning via State Space Mode](https://arxiv.org/abs/2403.00762)
-Tao Zhang, Xiangtai Li, Haobo Yuan, Shunping Ji, Shuicheng Yan
+# [Point Cloud Mamba: Point Cloud Learning via State Space Model](https://arxiv.org/abs/2403.00762)
+Tao Zhang, Xiangtai Li*, Haobo Yuan, Shunping Ji, Shuicheng Yan
 
 <img src="https://github.com/zhang-tao-whu/paper_images/blob/master/pcm/pcm-idea.png" width="800"/>
 </div>
@@ -11,7 +11,7 @@ Tao Zhang, Xiangtai Li, Haobo Yuan, Shunping Ji, Shuicheng Yan
 
 ## Features
 - PCM introduces Mamba to point cloud analysis.
-- PCM possesses the ability for global modeling while maintaining linear computational complexity.
+- PCM can perform global modeling while maintaining linear computational complexity.
 - PCM outperforms PointNeXt on the ScanObjectNN, ModelNet40, and ShapeNetPart datasets.
 
 ## Install 
