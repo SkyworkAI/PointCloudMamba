@@ -20,6 +20,7 @@ deepspeed
 shortuuid
 addict
 timm
+triton==2.1.0
 
 # for docs
 mkdocs-material
