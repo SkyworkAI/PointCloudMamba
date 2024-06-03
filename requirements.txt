@@ -18,6 +18,8 @@ Cython
 pandas
 deepspeed
 shortuuid
+addict
+timm
 
 # for docs
 mkdocs-material
